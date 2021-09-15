@@ -1,0 +1,31 @@
+package org.tcs.aircanada.billing;
+
+public class Rbi {
+	
+	public void savingAcc() {
+		System.out.println("3%");
+		
+	}
+	public void checkingAcc()
+	{
+		
+	System.out.println("4%");
+	}
+	public void joinAcc()
+	{
+		
+		System.out.println("5%");
+	}
+	
+
+	public static void main(String[] args) {
+	
+	Rbi ra = new Rbi();
+	ra.checkingAcc();
+	ra.joinAcc();
+	ra.savingAcc();
+			
+
+	}
+
+}
